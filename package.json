@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": ""
+    "server": "node src/server.ts",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.12.7"
+    "@types/node": "^20.12.7",
+    "prettier": "3.2.5"
   }
 }
