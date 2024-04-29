@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node src/server.ts",
     "format:check": "prettier . --check",
-    "format:fix": "prettier . --write"
-    ,"lint":"eslint ."
-    ,"lint:fix":"eslint . --fix"
+    "format:fix": "prettier . --write",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
@@ -22,5 +22,8 @@
     "eslint-config-prettier": "^9.1.0",
     "prettier": "3.2.5",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }

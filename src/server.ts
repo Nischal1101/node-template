@@ -1,6 +1,2 @@
-console.log("oilcome to mernstack course");
-function printName(nischal) {
-    console.log("name");
-}
-printName("n");
-const nischal = "";
+import { Config } from "./config";
+console.log(Config.NODE_ENV)
