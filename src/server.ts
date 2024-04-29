@@ -1,6 +1,6 @@
 console.log("oilcome to mernstack course");
-
-function printName() {
+function printName(nischal) {
     console.log("name");
 }
-printName();
+printName("n");
+const nischal = "";
