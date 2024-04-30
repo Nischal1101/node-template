@@ -5,7 +5,6 @@ import logger from "./config/logger";
 const startServer = () => {
     try {
         app.listen(Config.PORT, () => {
-            // eslint-disable-next-line no-console
             logger.info(`Listening on port ${Config.PORT}`);
         });
     } catch (error) {
